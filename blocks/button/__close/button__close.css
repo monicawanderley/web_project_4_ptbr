@@ -1,0 +1,30 @@
+.button_close {
+margin: 0;
+padding: 0;
+min-width: 26px;
+max-height: 26px;
+border: none;
+background-color: transparent;
+position: absolute;
+top: 47px;
+right: 7px;
+cursor: pointer;
+}
+  
+ 
+  @media screen and (min-width: 600px) {
+.button_close {
+top: -30px;
+right: -30px;
+   }
+}
+  
+ 
+@media screen and (min-width: 880px) {
+.button_close {
+ min-width: 40px;
+ max-height: 40px;
+ top: -44px;
+ right: -44px;
+ }
+}

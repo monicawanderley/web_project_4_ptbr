@@ -1,3 +1,48 @@
-@import url(./vendor/normalize/);
-@import url(./blocks/page/page.css);
+@import url(./vendor/normalize/normalize.css);
 @import url(./vendor/fonts/fonts.css);
+@import url(./blocks/page/page.css);
+
+/* Imports from button*/
+@import url(./blocks/button/button.css);
+@import url(./blocks/button/__add/button__add.css);
+@import url(./blocks/button/__add/-img/button__add-img.css);
+@import url(./blocks/button/__close/button__close.css);
+@import url(./blocks/button/__close/-img/button_close-img.css);
+@import url(./blocks/button/__edit/button__edit.css);
+@import url(./blocks/button/__edit/-img/button__edit-img.css);
+@import url(./blocks/button/__like/button__like.css);
+@import url(./blocks/button/__like/ímg/button__like-img.css);
+@import url(./blocks/button/__save/button__save.css);
+
+/* Imports from cards*/
+@import url(./blocks/cards/cards.css);
+@import url(./blocks/cards/card/card.css);
+@import url(./blocks/cards/card/__image/card__image.css);
+@import url(./blocks/cards/card/__info/card__info.css);
+@import url(./blocks/cards/card/__name/card__name.css);
+
+/* Imports from footer*/
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__copyright/footer__copyright.css);
+
+/* Imports from form*/
+@import url(./blocks/form/form.css);
+@import url(./blocks/form/__aboutme/form__aboutme.css);
+@import url(./blocks/form/__input/form__input.css);
+@import url(./blocks/form/__name/form__name.css);
+@import url(./blocks/form/__title/form__title.css);
+
+/* Imports from header*/
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__logo/header__logo.css);
+
+/* Imports from popup*/
+@import url(./blocks/popup/popup.css);
+@import url(./blocks/popup/__opened/popup__opened.css);
+
+/* Imports from profile*/
+@import url(./blocks/profile/profile.css);
+@import url(./blocks/profile/__aboutme/profile__aboutme.css);
+@import url(./blocks/profile/__avatar/profile__avatar.css);
+@import url(./blocks/profile/__info/profile__info.css);
+@import url(./blocks/profile/__name/profile__name.css);

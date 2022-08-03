@@ -1,11 +1,195 @@
+<!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./index.css">
     <title>Around The U.S.</title>
   </head>
-  <div class="page">
-    <footer></footer>
-  </div>
+
+  <body>
+    <body>
+      <div class="page">
+        <header class="header">
+          <img
+            class="header__logo"
+            src="./icons/logo.svg"
+            alt="Logo Around the US"
+          />
+        </header>
+  
+        <section class="popup">
+          <form class="form">
+            <button type="button" class="button button__close">
+              <img
+                src="./icons/Close_static.png"
+                alt="Botão fechar estático"
+                class="button__close-img"
+              />
+            </button>
+            <h2 class="form__title">Editar perfil</h2>
+            <fieldset class="form__input">
+              <input
+                type="text"
+                class="form__name"
+                placeholder="Escreva seu nome"
+                required
+              />
+              <input
+                type="text"
+                class="form__aboutme"
+                placeholder="Fale sobre você"
+                required
+              />
+              <button type="submit" class="button button__save">Salvar</button>
+            </fieldset>
+          </form>
+        </section>
+  
+        <main class="content">
+          <section class="profile">
+            <img
+              src="./images/profile-image_jacques(1).png"
+              alt="Foto de avatar"
+              class="profile__avatar"
+            />
+            <div class="profile__info">
+              <h1 class="profile__name">Jacques Cousteau</h1>
+              <button class="button button__edit">
+                <img
+                  src="./icons/edit_static.png"
+                  alt="Botão de editar estático"
+                  class="button button__edit-img"
+                />
+              </button>
+            </div>
+            <p class="profile__aboutme">Explorer</p>
+            <button class="button button__add">
+              <img
+                src="./icons/AddButton_static.png"
+                alt="Botão de adicionar estático"
+                class="button__add-img"
+              />
+            </button>
+          </section>
+  
+          <section class="cards">
+            <div class="card">
+              <img
+                src="./images/Yosemite(1).png"
+                alt="Yosemite valley"
+                class="card__image"
+              />
+              <div class="card__info">
+                <h2 class="card__name">Valle de Yosemite</h2>
+                <button class="button button__like">
+                  <img
+                    src="./icons/heart_static.svg"
+                    alt="Coração estático"
+                    class="button__like-img"
+                  />
+                </button>
+              </div>
+            </div>
+  
+            <div class="card">
+              <img
+                src="./images/Louise(1).png"
+                alt="Lago Louise"
+                class="card__image"
+              />
+              <div class="card__info">
+                <h2 class="card__name">Lago Louise</h2>
+                <button class="button button__like">
+                  <img
+                    src="./icons/heart_static.svg"
+                    alt="Coração estático"
+                    class="button__like-img"
+                  />
+                </button>
+              </div>
+            </div>
+  
+            <div class="card">
+              <img
+                src="./images/Montanhas Care(1).png"
+                alt="Montanhas Care"
+                class="card__image"
+              />
+              <div class="card__info">
+                <h2 class="card__name">Montanhas Care</h2>
+                <button class="button button__like">
+                  <img
+                    src="./icons/heart_static.svg"
+                    alt="Coração estático"
+                    class="button__like-img"
+                  />
+                </button>
+              </div>
+            </div>
+  
+            <div class="card">
+              <img
+                src="./images/Latemar(1).png"
+                alt="Latemar"
+                class="card__image"
+              />
+              <div class="card__info">
+                <h2 class="card__name">Latemar</h2>
+                <button class="button button__like">
+                  <img
+                    src="./icons/heart_static.svg"
+                    alt="Contorno de un corazón"
+                    class="button__like-img"
+                  />
+                </button>
+              </div>
+            </div>
+  
+            <div class="card">
+              <img
+                src="./images/Vanoise(1).png"
+                alt="Vanoise National Park"
+                class="card__image"
+              />
+              <div class="card__info">
+                <h2 class="card__name">Vanoise National Park</h2>
+                <button class="button button__like">
+                  <img
+                    src="./icons/heart_static.svg"
+                    alt="Coração estático"
+                    class="button__like-img"
+                  />
+                </button>
+              </div>
+            </div>
+  
+            <div class="card">
+              <img
+                src="./images/Lago di(1).png"
+                alt="Lago di Braies"
+                class="card__image"
+              />
+              <div class="card__info">
+                <h2 class="card__name">Lago di Braies</h2>
+                <button class="button button__like">
+                  <img
+                    src="./icons/heart_static.svg"
+                    alt="Coração estático"
+                    class="button__like-img"
+                  />
+                </button>
+              </div>
+            </div>
+          </section>
+        </main>
+  
+        <footer class="footer">
+          <p class="footer__copyright">© 2022 Around the US</p>
+        </footer>
+      </div>     
+  <script src="./scripts/index.js"></script>
+</body>
 </html>
+
+

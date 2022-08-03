@@ -1,0 +1,11 @@
+.button__add-img {
+  margin: 0;
+  min-width: 50%;
+  min-height: 50%;
+}
+
+@media screen and (min-width: 600px) {
+  .button__add-img {
+    min-width: 22px;
+  }
+}

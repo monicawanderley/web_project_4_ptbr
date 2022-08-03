@@ -1,0 +1,11 @@
+.button__like-img {
+    margin: 0;
+    max-width: 16px;
+ }
+   
+   
+ @media screen and (min-width: 600px) {
+    .button__like-img {
+    min-width: 22px;
+    }
+ }
